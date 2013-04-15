@@ -1,0 +1,185 @@
+
+body {
+  font-family: "Courier New", "News Gothic MT",
+             "Lucida Grande",
+             "Lucida Sans Unicode",
+             "Lucida Sans",
+             sans-serif !important;
+  font-size: 11px;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  background: #ffffff;
+}
+
+#container {
+  width: 1024px;
+  height: 680px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  position:relative;
+}
+
+#container > img{
+  position:absolute;
+  z-index: 20;
+}
+
+
+#page2{
+  position:absolute;
+  left: 280px;
+  top:182px;
+  opacity: 0;
+filter: alpha(opacity=0);
+  z-index: 30;
+  width: 482px;
+  cursor: pointer;
+  height: 360px;
+overflow:visible;
+}
+
+#gatheremail{
+  width:470px;
+  height: 80px;
+  font-size: 36px;
+  border: solid 1px #2E3192;
+  text-align: center;
+  margin-left: 8px;
+  display:block;
+  margin-bottom: 10px;
+}
+
+#addemail-img{
+  top:10px;
+}
+
+#allure-text{
+  top:10px;
+  color: #666666;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom:14px;
+}
+
+#gatheremail{
+  top:10px;
+}
+
+#qmark{
+  top:10px;
+  float: left;
+  cursor:pointer;
+  position:relative;
+  z-index:30;
+}
+
+#arrow{
+  margin-top:-5px;
+  float:right;
+  cursor:pointer;
+}
+
+#title, #leftparan, #slipbetween, #page2{
+  left: 285px;
+}
+
+#rightparan{
+  left:535px;
+}
+
+#cursor{
+  left:525px;
+  top: 222px;
+}
+
+#title{
+  top: 20px;
+}
+
+#leftparan, #rightparan{
+  top: 90px;
+}
+
+#slipbetween{
+  top: 590px;
+}
+
+#tooltip{
+  display:none;
+  position:absolute;
+  height: 221px;
+  background: url('images/tooltip.png');
+  top: 238px;
+  left: 12px;
+  width: 471px;
+  background-repeat: no-repeat;
+  z-index:20;
+}
+
+#tooltitle{
+  margin-top: 45px;
+  margin-bottom: 13px;
+  width:100%;
+  text-align:center;
+  display: inline-block;
+  clear:both;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+#tooltext{
+  margin-left:18px;
+  margin-right:18px;
+  clear:both;
+  display: inline-block;
+  font-size: 14px;
+  color: #999999;
+  line-height: 24px;
+}
+
+p {
+
+  line-height: 20px;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+  border: none;
+  color: #1c87c9;
+  line-height: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  outline: none !important;
+}
+
+
+img {
+  border: none;
+}
+
+p {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 14px;
+}
+
+
+input, textarea, .answer {
+  border: solid 2px;
+  border-color: #e4e4e4;
+  padding: 3px;
+  moz-border-radius: 2px; 
+  -webkit-border-radius: 2px; 
+  border-radius: 2px;
+  font-family: "Courier New";
+}
+
+
+#leftparan, #rightparan, #gatheremail{
+  cursor: pointer;
+}

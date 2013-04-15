@@ -1,0 +1,284 @@
+
+body {
+  font-family: "Courier New", "News Gothic MT",
+             "Lucida Grande",
+             "Lucida Sans Unicode",
+             "Lucida Sans",
+             sans-serif !important;
+  font-size: 11px;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  background: #ffffff;
+}
+
+#container {
+  width: 1024px;
+  height: 680px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  position:relative;
+}
+
+#container > img{
+  position:absolute;
+  z-index: 20;
+}
+
+
+#page2{
+  position:absolute;
+  top:80px;
+  opacity: 0;
+  z-index: 30;
+  width: 482px;
+  cursor: pointer;
+  height: 360px;
+*  left: 280px;
+}
+
+#gatheremail{
+  width:285px;
+  height: 50px;
+  font-size: 28px;
+  border: solid 1px #231F20;
+  text-align: center;
+  margin-left: 100px;
+  display:block;
+  margin-bottom: 10px;
+}
+
+#addemail-img{
+  top:10px;
+}
+
+#allure-text{
+  top:10px;
+  color: #666666;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom:14px;
+}
+#join-text{
+  top:10px;
+  color: #231F20;
+  font-size: 18px;
+  margin-left: 150px;
+  margin-bottom:14px;
+font-weight: bold;
+}
+
+#gatheremail{
+  top:10px;
+}
+
+#qmark{
+  top:-5px;
+margin-left: 90px;
+  float: left;
+  cursor:pointer;
+  position:relative;
+  z-index:30;
+width: 20px;
+}
+
+#arrow{
+  margin: 0 auto 0 auto;
+  float:right;
+  padding-right: 200px;
+  cursor:pointer;
+
+border:0;
+}
+
+#title, #slipbetween, #page2{
+  *left: 285px;
+}
+          
+#rightparan{
+  left: 730px;
+}
+
+#cursor{
+  left:505px;
+  top: 222px;
+  opacity:0;
+}
+
+#title{
+  top: 20px;
+}
+
+#rightparan{top: 90px;}
+
+#leftparan{top: 90px;}
+
+#slipbetween{
+  top: 590px;
+}
+
+#tooltip{
+  display:none;
+  position:absolute;
+  height: 221px;
+  background: url(./images/tooltip.png);
+  background-repeat: no-repeat;
+  z-index:20;
+top: 192px;
+left: 78px;
+width: 380px;
+}
+
+#tooltitle{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width:100%;
+  text-align:center;
+  display: inline-block;
+  clear:both;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+
+}
+#tooltext{
+  margin-left:18px;
+  margin-right:18px;
+  clear:both;
+  display: inline-block;
+  font-size: 13px;
+  color: #999999;
+  line-height: 22px;
+text-shadow: black .1em 0 .1em;
+}
+#bookbar {
+  position: absolute; 
+  left: 20px; 
+  top: 400px;
+  }
+
+p {
+
+  line-height: 20px;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+  border: none;
+  color: #231F20;
+  line-height: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  outline: none !important;
+}
+
+
+img {
+  border: none;
+}
+
+p {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 14px;
+}
+
+
+input, textarea, .answer {
+  border: solid 2px;
+  border-color: #e4e4e4;
+  padding: 3px;
+  moz-border-radius: 2px; 
+  -webkit-border-radius: 2px; 
+  border-radius: 2px;
+  font-family: "Courier New";
+}
+
+
+#leftparan, #rightparan{
+  cursor: default;
+}
+
+#gatheremail{
+    : text;
+}
+
+.placeholder
+{
+  color: #aaa;
+}
+
+.paranblock{
+width: 300px;
+height: 50px;
+margin-bottom: 50px;
+  color: #231F20;
+  font-size: 16px;
+  margin-left: 93px;
+text-align: center;
+display: block;
+text-decoration: none;
+border: 0;
+display:none;
+}
+
+#preorder, #getstarted{
+font-weight: bold;
+color: white;
+font-size: 18px;
+padding-top:14px;
+}
+
+#getstarted{
+  background: url(./images/getstarted_bg.jpg);
+  background-repeat: no-repeat;
+padding-top: 24px;
+margin-bottom: 40px;
+}
+
+#preorder{
+  margin-left: 78px;
+width: 320px;
+  background: url(./images/preorder_bg.jpg);
+  background-repeat: no-repeat;
+margin-bottom:30px;
+}
+
+a:hover{
+text-decoration: none;
+border: 0;
+}
+
+  #title, #leftparan, #slipbetween, #page2 {
+      left: 235px;
+  }
+  #cursor{
+      left:485px;
+  }
+  #quick{
+    position: absolute;
+    left: 510px;
+    top: 320px;      
+  }
+  #arrow{
+      margin-right:130px;
+      padding:0px;
+  }
+  #tooltip{
+      top: -127px;
+  }
+  #container{
+      height: auto !important;
+  }
+
+#twitter-node{
+text-align: right;
+margin-bottom: 10px;
+margin-left: 100px;
+width: 200px;
+overflow: hidden;
+}
