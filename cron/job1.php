@@ -13,8 +13,8 @@ $dev="_dev"; //suffix for development directory
 
 include('db.php');
 require("googlevoice.php");
-define('GV_USER', 'sexdiariesproject@gmail.com');
-define('GV_PASS', 'diary!app');
+define('GV_USER', 'REDACTED');
+define('GV_PASS', 'REDACTED');
 
 $gv = new GoogleVoice(GV_USER, GV_PASS);
 
